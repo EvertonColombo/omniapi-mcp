@@ -5,8 +5,13 @@ Add REST APIs with a prompt and start testing endpoints instantly.
 ## Prerequisites
 
 - **Node.js**: Download and install from [https://nodejs.org/](https://nodejs.org/)
+<<<<<<< HEAD
 - **Git**: Installed on your system [https://git-scm.com/downloads](https://git-scm.com/downloads)
 - **Claude Desktop**: Download from [https://claude.ai/download](https://claude.ai/download)
+=======
+- **Git**: Download and install from [https://git-scm.com/downloads](https://git-scm.com/downloads)
+- **Claude Desktop**: Download and install from [https://claude.ai/download](https://claude.ai/download)
+>>>>>>> 5fa1714 (Improve README installation steps)
 
 ## Installation
 
@@ -33,14 +38,21 @@ npm install
 1. Open Claude Desktop settings
 2. Go to **Developer** section
 3. Edit the `claude_desktop_config.json` file
+<<<<<<< HEAD
 4. Add the following configuration with name **omniapi**:
+=======
+>>>>>>> 5fa1714 (Improve README installation steps)
 
 ```json
 {
   "mcpServers": {
     "omniapi": {
       "command": "node",
+<<<<<<< HEAD
       "args": ["path/to/your/omniapi-mcp/server.js"],
+=======
+      "args": ["path/to/your/omniapi-mcp/omniapi.js"],
+>>>>>>> 5fa1714 (Improve README installation steps)
       "env": {}
     }
   }
