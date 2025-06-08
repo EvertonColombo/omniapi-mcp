@@ -5,8 +5,8 @@ Add REST APIs with a prompt and start testing endpoints instantly.
 ## Prerequisites
 
 - **Node.js**: Download and install from [https://nodejs.org/](https://nodejs.org/)
-- **Git**: Download and install [https://git-scm.com/downloads](https://git-scm.com/downloads)
-- **Claude Desktop**: Download and install [https://claude.ai/download](https://claude.ai/download)
+- **Git**: Download and install from [https://git-scm.com/downloads](https://git-scm.com/downloads)
+- **Claude Desktop**: Download and install from [https://claude.ai/download](https://claude.ai/download)
 
 ## Installation
 
