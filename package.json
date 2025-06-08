@@ -1,0 +1,21 @@
+{
+  "name": "omniapi-mcp-server",
+  "version": "1.0.0",
+  "description": "An ultra-simple MCP server to interact with REST APIs with a prompt.",
+  "main": "omniapi.js",
+  "type": "module",
+  "bin": {
+    "omniapi": "./omniapi.js"
+  },
+  "scripts": {
+    "start": "node omniapi.js",
+    "dev": "node --watch omniapi.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "node-fetch": "^3.3.2"
+  },
+  "keywords": ["mcp", "api", "server", "simple"],
+  "author": "https://github.com/EvertonColombo",
+  "license": "MIT"
+}
