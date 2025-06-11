@@ -30,9 +30,24 @@ npm install
 
 ### 4. Configure Claude Desktop
 
-1. Open Claude Desktop settings
-2. Go to **Developer** section
-3. Edit the `claude_desktop_config.json
+1. Open Claude Desktop settings.
+2. Go to **Developer** section.
+3. Edit the claude_desktop_config.json.
+4. Include the server below and change the path according to your installation.
+   
+```bash
+{
+  "mcpServers": {
+    "omniapi": {
+      "command": "node",
+      "args": [
+        "/your/directory/path/omniapi.js"
+      ],
+      "env": {}
+    }
+  }
+}
+```
 
 ### 5. Restart Claude and Verify Installation
 
